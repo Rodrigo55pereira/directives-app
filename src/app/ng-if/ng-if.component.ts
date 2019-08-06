@@ -10,6 +10,7 @@ export class NgIfComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }

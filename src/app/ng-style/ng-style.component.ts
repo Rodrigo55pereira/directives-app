@@ -13,6 +13,8 @@ export class NgStyleComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    //debugger;
+    console.log("teste");
   }
 
 }
