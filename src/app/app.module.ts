@@ -5,7 +5,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import { MatInputModule, MatIconModule, MatDividerModule } from '@angular/material';
+import { MatInputModule, MatIconModule, MatDividerModule, MatButtonModule } from '@angular/material';
 import { MatListModule } from '@angular/material/list'; 
 
 import { AppComponent } from './app.component';
@@ -40,7 +40,8 @@ import { NgForFormComponent } from './ng-for-form/ng-for-form.component';
     MatInputModule,
     MatListModule,
     MatIconModule,
-    MatDividerModule
+    MatDividerModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
